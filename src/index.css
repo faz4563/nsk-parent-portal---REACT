@@ -1,0 +1,17 @@
+ 
+
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../public/Poppins-Black.ttf') format('ttf'); 
+  }
+  
+  @font-face {
+    font-family: 'PoppinsItalic';
+    src: url('../public/Poppins-BlackItalic.ttf') format('woff2'); 
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  

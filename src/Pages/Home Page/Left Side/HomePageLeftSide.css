@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+
+}
+
+.homePageLeftBaseContainer {
+    width: 90%;
+    
+    flex-wrap: wrap;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: start;
+    background-image: url('../../../assets/leftSideBg.jpg');
+    background-position: center;
+    padding-left: 10px;
+    box-sizing: border-box;
+
+}
+
+.greetingsTitle {
+    display: flex;
+    text-align: left;
+    color: #fff;
+    font-size: 28px; 
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+    word-spacing: 2px;
+    /* letter-spacing: 1px; */
+    /* margin-top: 20%; */
+}
+.proverbStyle{
+    display: flex; 
+    width: 100%;
+    line-height: 30px;
+    text-align: left;
+    font-size: 1.1rem;
+    margin: 35px 0px 56px;  
+    padding-left: 10px;
+    color: #ffffffb3;
+    letter-spacing: 1.1px;
+    word-spacing: 8.0px;
+}

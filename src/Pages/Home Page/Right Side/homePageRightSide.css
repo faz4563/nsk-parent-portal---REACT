@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+}
+
+.homePageRightBaseContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.nsklogo {
+    display: flex;
+}
+
+.loginTxt {
+
+    font: 400 16px/28px Roboto, Helvetica Neue, sans-serif;
+    letter-spacing: normal;
+    margin: 0 0 16px;
+    font-size: 1.8rem;
+    color: #67666e;
+    font-weight: 500;
+}
+
+.loginHint {
+    background: #5578eb;
+    border: 1px solid #5578eb;
+    color: #fff;
+    position: relative;
+    width: 385px;
+    font-weight: 300;
+    display: flex;
+    align-items: stretch;
+    padding: 1rem 2rem;
+    border-radius: 3px;
+    margin: 0 0 20px;
+}
+
+.inputFormField{
+    display: flex;
+    position: relative;
+    flex: auto;
+    width: 420px;
+}
+
+.fgtPasswordBtn{ 
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+    color: #a7abc3;
+    font-weight: bolder;
+}
+.btnFields{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+.sbmtBtn{
+    background-color: #6868f3;
+}
