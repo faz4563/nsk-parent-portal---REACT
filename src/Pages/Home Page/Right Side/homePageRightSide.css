@@ -58,8 +58,13 @@
 .btnFields{
     display: flex;
     width: 60%;
-    justify-content: space-between;
+    justify-content: space-between;align-items: end;
 }
 .sbmtBtn{
     background-color: #6868f3;
+    width: 130px;
+    height: 60px;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
 }
